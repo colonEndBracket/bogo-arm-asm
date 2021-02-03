@@ -1,9 +1,9 @@
 .text            
 .global _start
 _start:
-    mov r0, #1
+    mov r0, #1	//Output to STDOUT
     ldr r1, =message	//Load memory address of message into r1
-    ldr r2, =len	//
+    ldr r2, =len	//Load memory address of length of message into r2
     mov r7, #4	//SYS_WRITE Display Text to STDOUT
     swi 0
 

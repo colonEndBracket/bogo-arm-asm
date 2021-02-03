@@ -15,5 +15,5 @@ algorithm.
 ## Assembling ARM Assembly file!
 1. Assemble your assembly code into machine code!
 `as file.s -o file.o`
-2. Link machine code into a binary!
+2. Link object file into an ELF binary!
 `ld file.o -o file`
